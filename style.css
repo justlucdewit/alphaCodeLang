@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* CSS for the header */
+header{
+    padding: 50px 0px;
+    width: 100vw;
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    background-color: #ddd;
+    font-size: xxx-large;
+    
+}
+
+header>div>h1,header>div>h4,header>div>h4>b{
+    font-family: 'Amatic SC', cursive;
+}
+
+header>img{
+    margin-right: 50px;
+}
+
+/* CSS for the navbar */
+nav{
+    background-color: #cacaca;
+    font-weight: bolder;
+    padding: 30px 0px;
+}
+
+nav>a{
+    color: black;
+    padding: 30px;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+nav>a:hover{
+    padding-bottom: 25px;
+    border-bottom: 5px solid #aaa;
+}
+
+/* CSS for main page */
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#wrapper{
+    margin: 50px;
+    width: 70vw;
+}
+
+#wrapper>h1{
+    font-size: xxx-large;
+}
+
+#wrapper>h4{
+    font-size: xx-large;
+}
